@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+body,div,h3,p,strong,form,fieldset,legend,label,input,select,option,span,textarea{
+    margin:0;padding:0;
+}
+
+body{
+    font:normal 12px/1.5em nanum,sans-serif;
+    background-color:#ffffff;
+    color:#333333;
+}
+
+body,input,select,option,textarea{
+    font:normal 12px/1.5em nanum,sans-serif;
+    background-color:#ffffff;
+    color:#333333;
+}
+
+input,select,option,textarea{
+    outline:none;
+}
+
+@font-face{
+		font-family:nanum;
+		src:url('../font/NanumGothic.eot');
+		src:url('../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
+			url('../font/NanumGothic.ttf')format('truetype'),
+			url('../font/NanumGothic.woff')format('woff');
+}
+
+#join_container{
+    width:500px;
+    height:1230px;
+    margin:20px auto;
+}
+
+#join_container>h3{
+    font-size:19px;
+    height:20px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.information{
+    height:20px;
+    margin-bottom:5px;
+}
+
+.point{
+    color:#cc0066;
+}
+
+.infor{
+    color:#009966;
+}
+
+#join fieldset{
+    border:1px solid #cccccc;
+    padding:10px;
+    margin-bottom:30px;
+    }
+
+#join fieldset legend{
+    font-size:15px;
+    font-weight:bold;
+    padding:5px;
+}
+
+.box_i{
+    clear:both;
+    margin:5px 0;
+}
+
+.box_t{
+    clear:both;
+    margin:10px 0;
+}
+
+.join1 label{
+    width:110px;
+    height:30px;
+    display:inline-block;
+    text-align:right;
+    line-height:30px;
+    margin-right:10px;
+}
+
+.join1 input{
+    border:1px solid #cccccc;
+    height:30px;
+    text-align:center; /*커서가 가운데로*/
+}
+
+#u_name, #u_id, #pwd1, #pwd2{
+    width:200px;
+}
+
+
+#checkId,#pwdtext,#pwdChk,#checkNickname,#checkEmail,#checkphone{
+    font-size:9px;
+    text-indent: 110px;
+
+
+}
+
+
+#zip1, #zip2, .zip_btn{
+    width:90px;
+}
+
+.zip_btn{
+    background-color:#198754;
+    border-radius:5px;
+    cursor:pointer;
+    color:#ffffff;
+    margin-left:10px;
+}
+
+.zip_btn:hover{
+    background-color:#094b2c;
+    color:#ffffff;
+}
+
+#add{
+    width:350px;
+}
+
+#tel1,#tel2,#tel3{
+    width:70px;
+}
+
+.box_s{
+    width:110px;
+    height:30px;
+    display:block;
+    float:left;
+    text-align:right;
+    margin-right:10px;
+    line-height:30px;
+}
+
+.box_ii{
+    clear:both;
+}
+
+.join2 input, #phone1{
+    border:1px solid #cccccc;
+    height:30px;
+    text-align:center;
+}
+
+#sms,#mail{
+    vertical-align:-11px;
+    margin-right:3px;
+}
+
+#phone1_wrap{
+    border:1px solid #cccccc;
+    width:70px;
+    height:30px;
+    float:left;
+    margin-right:2px;
+}
+
+#phone1{
+    width:70px;
+    height:30px;
+    border:none;
+}
+
+#phone2, #phone3{
+    width:70px;
+}
+
+#u_email{
+    width:350px;
+}
+
+.join3 textarea{
+    width:480px;
+    height:250px;
+    border:none;
+    resize:none;
+}
+
+.join3 textarea::-webkit-scrollbar{
+    width:6px;
+}
+
+.join3 textarea::-webkit-scrollbar-track{
+    background-color:#999999;
+}
+
+.join3 textarea::-webkit-scrollbar-thumb{
+    background-color:#333333;
+}
+
+.join3 textarea::-webkit-scrollbar-thumb:hover{
+    background-color:#666666;
+}
+
+.join3 textarea::-webkit-scrollbar-thumb:active{
+    background-color:#000000;
+}
+
+#chk1,#chk2{
+    vertical-align:-2px;
+}
+
+
+#chk2{
+    margin-left:8px;
+}
+
+.btn{
+    width:308px;
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.final{
+    width:150px;
+    height:40px;
+    float:left;
+    margin:0 2px;
+    cursor:pointer;
+    background-color:#198754 ;
+    color: white;
+    border:none;
+    border-radius:5px;
+}
+
+.final:hover{
+	background-color:#094b2c;
+    color:#ffffff;
+}
+
+.btn_id{
+    width:100px;
+    height:30px;
+    cursor:pointer;
+    border:2px solid #cccccc;
+
+}
+
+
+
+#preview{
+	 width:200px;
+    height:200px;
+	margin-left:120px;
+	border-radius:50%;
+}
+
+#logo{
+    margin:20px auto;
+    width:250px;
+    height:250px;
+    
+}
+
+#logo img{
+    width:250px;
+    height:250px;
+}
+
